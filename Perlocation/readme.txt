@@ -51,31 +51,30 @@ Programming Assignment 1: Percolation
 
 (keep T constant)
  T = 100
- multiplicative factor (for n) =
+ multiplicative factor (for n) = 2
 
  n          time (seconds)       ratio         log ratio
 --------------------------------------------------------
-...
-...
-...
-...
-...
-...
+2           0.005
+4           0.007
+8           0.020                               1.514
+16          0.110               5.5             2.459
+32          1.237               11.245          3.491
+64          17.141              13.857          3.793
+128         270.819             15.799          3.982
 
 
 (keep n constant)
  n = 100
- multiplicative factor (for T) =
+ multiplicative factor (for T) = 2
 
  T          time (seconds)       ratio         log ratio
 --------------------------------------------------------
-...
-...
-...
-...
-...
-...
-...
+2           1.989
+4           4.033                2.028          1.020
+8           7.77                 1.927          0.946
+16          16.113               2.074          1.052
+32          31.941               1.982          0.987
 
 
 /* *****************************************************************************
@@ -93,7 +92,7 @@ Programming Assignment 1: Percolation
 
 QuickFindUF running time (in seconds) as a function of n and T:
 
-    ~
+    ~   A * n^3.5 * T^1
        _______________________________________
 
 
@@ -104,32 +103,33 @@ QuickFindUF running time (in seconds) as a function of n and T:
  **************************************************************************** */
 
 (keep T constant)
- T =
+ T = 100
 
  n          time (seconds)       ratio         log ratio
 --------------------------------------------------------
-...
-...
-...
-...
-...
+50          0.517
+100         2.027                3.921          1.971
+200         8.057                3.975          1.991
+400         32.525               4.037          2.013
+800         148.071              4.551          2.186
 
 
 (keep n constant)
- n =
+ n = 100
 
  T          time (seconds)       ratio         log ratio
 --------------------------------------------------------
-...
-...
-...
-...
+50          1.002
+100         2.185               2.181           1.125
+200         4.206               1.925           0.945
+400         8.009               1.904           0.929
+800         15.948              1.991           0.993
 ...
 
 
 WeightedQuickUnionUF running time (in seconds) as a function of n and T:
 
-    ~
+    ~   A * n^2 * T^1
        _______________________________________
 
 
@@ -137,8 +137,7 @@ WeightedQuickUnionUF running time (in seconds) as a function of n and T:
 /* *****************************************************************************
  *  Known bugs / limitations.
  **************************************************************************** */
-
-
+the probability varies in every experiments
 
 
 /* *****************************************************************************
@@ -152,7 +151,7 @@ WeightedQuickUnionUF running time (in seconds) as a function of n and T:
 /* *****************************************************************************
  *  Describe any serious problems you encountered.
  **************************************************************************** */
-
+N/A
 
 
 
