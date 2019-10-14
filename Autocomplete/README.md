@@ -1,6 +1,9 @@
 # AutoComplete
 Write a program to implement autocomplete for a given set of n terms, where a term is a query string and an associated non-negative weight. That is, given a prefix, find all queries that start with the given prefix, in descending order of weight.
-![AutoComplete.gif](AutoComplete.gif)
+<p align="center">
+  <img src = "AutoComplete.gif" width = '700px'>
+</p>
+<hr>
 
 ## Term
 Write an immutable data type `Term.java` that represents an `autocomplete term` -— a query string and an associated integer weight. The following API supports comparing terms by three different orders: `lexicographic order` by query string (the natural order); in `descending order by weight` (an alternate order); and `lexicographic order by query string but using only the first r characters` (a family of alternate orderings). The last order will be used in Part 3 to find all query strings that start with a given prefix (of length r).
