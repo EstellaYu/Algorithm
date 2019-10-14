@@ -14,6 +14,3 @@
 
 ### 5. [KD-Tree](https://github.com/EstellaYu/Algorithm/tree/master/kdtree)
 | BST | Recursion | 
-- Create a symbol-table data type whose keys are two-dimensional points. 
-- Use a 2d-tree to support efficient `range search` (find all of the points contained in a query rectangle) and `nearest-neighbor search` (find a closest point to a query point). 
-- 2d-trees have numerous applications, ranging from classifying astronomical objects and computer animation to speeding up neural networks and data mining.
